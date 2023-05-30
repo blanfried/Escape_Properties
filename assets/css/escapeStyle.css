@@ -320,11 +320,31 @@
     flex: 1;
   }
 
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    }
+
+  .contact-info {
+    margin-left: 15px;
+  }
+
+  .phone-number {
+    font-size: 18px;
+  }
+
+  .email {
+    font-size: 18px;
+  }
+
   .skip-img {
-    max-width: 15%;
-    max-height: 15%;
-    margin-bottom: 10px;
-    margin-top: 8px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
   }
 
   .social-img {
