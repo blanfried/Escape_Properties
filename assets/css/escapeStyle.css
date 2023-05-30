@@ -127,16 +127,19 @@
   }
 
     .location-title {
-    margin-bottom: 1em;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: center;
     vertical-align: middle;
-    
     padding: 1%;
-    max-width: 50%;
+    max-width: 97%;
     border-radius: 1em;
     font-family: 'Calibri Light', sans-serif;
     background-color: var(--princeton-orange);
     color: #ffffff;
     text-align: center;
+    font-size: 50px;
   }
     
   .property-field {
@@ -171,7 +174,7 @@
       margin-top: -5px;
       border-radius: 1em;
       font-family: 'Calibri Light', sans-serif;
-      background-color: var(--princeton-orange);
+      background-color: rgba(0, 0, 0, 0.232);
       width: 97%;
       display: inline-block;
       margin-left: 20px;
