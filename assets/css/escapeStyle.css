@@ -2,6 +2,13 @@
       box-sizing: border-box;
       padding: 0;
       margin: 0;
+        /* CSS HEX */
+      --olive: #7c6a0aff;
+      --sage: #babd8dff;
+      --princeton-orange: #fa9500ff;
+      --persimmon: #eb6424ff;
+      --white: #ffffff;
+      font-family: 'Calibri Light', sans-serif;
   }
   
   body {
@@ -20,10 +27,10 @@
   }
 
   .escape-logo {
-      max-width: 50%;
-      max-height: 50%;
-      margin-bottom: -20%;
-      margin-top: -20%;
+      max-width: 65%;
+      max-height: 65%;
+      margin-bottom: -24%;
+      margin-top: -24%;
   }
   
   section h1 {
@@ -32,7 +39,7 @@
       text-align: center!important;
       box-sizing: border-box;
       margin: 0 0 17.5px;
-      font-family: Americana,serif;
+      font-family: 'Calibri Light', sans-serif;
       font-style: normal;
       font-weight: 400;
       line-height: 1.2;
@@ -51,7 +58,7 @@
   nav {
       -webkit-font-smoothing: antialiased;
       -webkit-text-size-adjust: 100%;
-      font-family: serif;
+      font-family: 'Calibri Light', sans-serif;
       font-style: normal;
       /* font-weight: 400; */
       line-height: 1.5;
@@ -137,8 +144,8 @@
     padding: 1%;
     max-width: 50%;
     border-radius: 1em;
-    font-family: serif;
-    background-color: #b67702;
+    font-family: 'Calibri Light', sans-serif;
+    background-color: var(--princeton-orange);
     color: #ffffff;
     text-align: center;
   }
@@ -147,67 +154,25 @@
       margin-bottom: 20px;
       padding: 50px;
       height: 300px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      background-color: #0072bb;
+      font-family: 'Calibri Light', sans-serif;
+      background-color: var(--sage);
       color: #ffffff;
   }
   .property-field-alternate {
       margin-bottom: 20px;
       padding: 50px;
       height: 300px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      background-color: #0072bb;
+      font-family: 'Calibri Light', sans-serif;
+      background-color: var(--sage);
       color: #ffffff;
-  }
-/*   
-  .online-reputation-management {
-      margin-bottom: 20px;
-      padding: 50px;
-      height: 300px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      background-color: #0072bb;
-      color: #ffffff;
-  }
-  
-  .social-media-marketing {
-      margin-bottom: 20px;
-      padding: 50px;
-      height: 300px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      background-color: #0072bb;
-      color: #ffffff;
-  } */
-  
+  }  
   .property-field img {
       max-height: 200px;
   }
   .property-field-alternate img {
       max-height: 200px;
   }
-  
-  /* .online-reputation-management img {
-      max-height: 200px;
-  }
-  
-  .social-media-marketing img {
-      max-height: 200px;
-  } */
-  
-  /* .search-engine-optimization h2 {
-      margin-bottom: 20px;
-      font-size: 36px;
-  }
-  
-  .online-reputation-management h2 {
-      margin-bottom: 20px;
-      font-size: 36px;
-  }
-  
-  .social-media-marketing h2 {
-      margin-bottom: 20px;
-      font-size: 36px;
-  } */
-  
+    
   footer {
       padding: 30px;
       clear: both;
