@@ -96,6 +96,10 @@
   p {
       font-size: 16px;
   }
+
+  h2 {
+    display: grid;
+  }
   
   section {
       height: 800px;
@@ -120,7 +124,7 @@
   
   article {
       width: 97%;
-      display: inline-block;
+      display: grid;
       margin-left: 20px;
       margin-right: 20px;
       align-content: center;
@@ -128,18 +132,19 @@
 
     .location-title {
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 26%;
+    margin-right: 25%;
     align-content: center;
     vertical-align: middle;
-    padding: 1%;
-    max-width: 97%;
+    padding: 10px;
+    /* max-width: 50%; */
     border-radius: 1em;
     font-family: 'Calibri Light', sans-serif;
     background-color: var(--princeton-orange);
     color: #ffffff;
     text-align: center;
     font-size: 50px;
+    align-self: center;
   }
     
   .property-field {
