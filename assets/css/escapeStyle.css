@@ -218,6 +218,10 @@
       font-family: 'Calibri Light', sans-serif;
     }
 
+    .dropdown .dropbtn:hover {
+      background-color: #f1f1f1;
+    }
+
     /* Dropdown content */
     .dropdown-content {
       display: none;
@@ -259,6 +263,10 @@
       border-radius: 10px;
       font-family: 'Calibri Light', sans-serif;
       margin-left: 25px;
+    }
+
+    .contact-btn:hover {
+      background-color: #f1f1f1;
     }
 
 
