@@ -195,7 +195,7 @@
   }
 
   .book-link:hover {
-        color: rgb(255, 217, 0);
+        color: var(--princeton-orange);
 
   }
       
@@ -255,13 +255,13 @@
     .contact-btn {
       background-color: var(--white);
       color: black;
-      padding: 11.5px 16px;
+      padding: 12px;
       border: none;
       font-size: 20px;
       cursor: pointer;
       border-radius: 10px;
       font-family: 'Calibri Light', sans-serif;
-      margin-left: 25px;
+      margin-left: 130px;
     }
 
     .contact-btn:hover {
@@ -349,7 +349,7 @@
     color: black;
   }
   .email:hover {
-    color: rgb(255, 217, 0);
+    color: var(--princeton-orange);
   }
 
   .skip-img {
