@@ -192,7 +192,12 @@
 
   /* Booking Link */
   .book-link {
+        color: var(--white);
+  }
+
+  .book-link:hover {
         color: rgb(255, 217, 0);
+
   }
       
     /* Dropdown container */
@@ -255,13 +260,6 @@
       font-family: 'Calibri Light', sans-serif;
       margin-left: 25px;
     }
-
-
-
-
-
-
-
 
 
   /* image slider */
@@ -337,6 +335,10 @@
 
   .email {
     font-size: 18px;
+    color: black;
+  }
+  .email:hover {
+    color: var(--princeton-orange);
   }
 
   .skip-img {
@@ -349,5 +351,21 @@
 
   .social-img {
     max-width: 5%;
-    max-height: 5%;   
+    max-height: 5%;
+    transition: box-shadow 0.3s ease;   
+  }
+
+  .social-img:hover {
+    filter: drop-shadow(15px 15px 25px rgba(0, 0, 0, 0.3));
+  }
+
+  /* Had to make one specific to airbnb because it acts differently */
+  .airbnb-img {
+    max-width: 5%;
+    max-height: 5%;
+    transition: box-shadow 0.3s ease;   
+  }
+
+  .airbnb-img:hover {
+    filter: drop-shadow(15px 15px 25px rgb(0, 0, 0));
   }
