@@ -48,11 +48,6 @@ createSlider('slider9');
 createSlider('slider10');
 // create more sliders as needed
 
-leftArrow.addEventListener('click', slideLeft);
-rightArrow.addEventListener('click', slideRight);
-
-window.addEventListener('resize', adjustContainerSize);
-window.addEventListener('load', adjustContainerSize);
 
     // JavaScript to control dropdown menu behavior
     document.addEventListener("DOMContentLoaded", function(event) {
