@@ -36,16 +36,17 @@ function createSlider(id) {
   window.addEventListener('load', adjustContainerSize);
 }
 
-createSlider('slider1');
-createSlider('slider2');
-createSlider('slider3');
-createSlider('slider4');
-createSlider('slider5');
-createSlider('slider6');
-createSlider('slider7');
-createSlider('slider8');
-createSlider('slider9');
-createSlider('slider10');
+createSlider('slider19');
+createSlider('slider20');
+createSlider('slider21');
+createSlider('slider33');
+createSlider('slider02');
+createSlider('slider13');
+createSlider('slider14');
+createSlider('slider28');
+createSlider('slider30');
+createSlider('slider29');
+createSlider('slider32');
 // create more sliders as needed
 
 
