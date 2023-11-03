@@ -380,3 +380,32 @@
   .airbnb-img:hover {
     filter: drop-shadow(15px 15px 25px rgb(0, 0, 0));
   }
+
+
+  /* Common styling for the "show more" containers */
+.show-more-field {
+  margin-bottom: 20px; /* Add spacing between containers */
+}
+
+/* Initial CSS styles for the "Show More" buttons */
+.show-more-button {
+  background-color: #eb6424ff; /* Background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding for better appearance */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+/* Hover effect for the buttons */
+.show-more-button:hover {
+  background-color: #ff863eff; /* Change color on hover */
+}
+
+/* Initial CSS for the content containers */
+.content-field {
+  display: none; /* Initially hide the content */
+  /* Add your desired styling for content containers */
+  border: 1px solid #ccc; /* Add a border for separation */
+  padding: 10px;
+  background-color: #f9f9f9;
+}

@@ -67,3 +67,46 @@ createSlider('slider32');
         }
       });
     });
+
+
+// Get references to the HTML elements for Beach
+const beachButton = document.querySelector('.beach-button');
+const beachContent = document.querySelector('.beach-stuff');
+const beachSlider = document.querySelector('.slider-container'); // Assuming the slider has a common class
+
+// Add click event listener for Beach
+beachButton.addEventListener('click', () => toggleContentAndSlider(beachContent, beachSlider));
+
+// Function to toggle the visibility of content and slider
+function toggleContentAndSlider(contentElement, sliderElement) {
+   if (contentElement.style.display === 'none' || contentElement.style.display === '') {
+      contentElement.style.display = 'block'; // Show the content
+      sliderElement.style.display = 'block'; // Show the slider
+   } else {
+      contentElement.style.display = 'none'; // Hide the content
+      sliderElement.style.display = 'none'; // Hide the slider
+   }
+}
+
+// Get references to the HTML elements for Desert
+const desertButton = document.querySelector('.desert-button');
+const desertContent = document.querySelector('.desert-content');
+
+// Add click event listener for Desert
+desertButton.addEventListener('click', () => toggleContent(desertContent));
+
+// Get references to the HTML elements for Farm
+const farmButton = document.querySelector('.farm-button');
+const farmContent = document.querySelector('.farm-content');
+
+// Add click event listener for Farm
+farmButton.addEventListener('click', () => toggleContent(farmContent));
+
+// Function to toggle the visibility of content
+function toggleContent(contentElement) {
+   if (contentElement.style.display === 'none' || contentElement.style.display === '') {
+      contentElement.style.display = 'block'; // Show the content
+   } else {
+      contentElement.style.display = 'none'; // Hide the content
+   }
+}
