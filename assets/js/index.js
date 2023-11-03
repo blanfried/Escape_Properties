@@ -72,16 +72,18 @@ createSlider('slider32');
 // Get references to the HTML elements for Beach
 const beachButton = document.querySelector('.beach-button');
 const beachContent = document.querySelector('.beach-stuff');
-const beachSlider = document.querySelector('.slider-container'); // Assuming the slider has a common class
+const beachSlider = document.querySelector('.beach-slider'); // Assuming the slider has a common class
+const beachSlider1 = document.querySelector('.beach-slider1'); // Assuming the slider has a common class
 
 // Add click event listener for Beach
-beachButton.addEventListener('click', () => toggleContentAndSlider(beachContent, beachSlider));
+beachButton.addEventListener('click', () => toggleContentAndSlider(beachContent, beachSlider, beachSlider1));
 
 // Function to toggle the visibility of content and slider
-function toggleContentAndSlider(contentElement, sliderElement) {
+function toggleContentAndSlider(contentElement, sliderElement, sliderElement1) {
    if (contentElement.style.display === 'none' || contentElement.style.display === '') {
       contentElement.style.display = 'block'; // Show the content
       sliderElement.style.display = 'block'; // Show the slider
+      sliderElement1.style.display = 'block'; // Show the slider
    } else {
       contentElement.style.display = 'none'; // Hide the content
       sliderElement.style.display = 'none'; // Hide the slider
